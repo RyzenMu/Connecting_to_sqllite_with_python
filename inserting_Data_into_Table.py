@@ -9,7 +9,7 @@ def main():
         cur.execute("INSERT INTO STUDENT VALUES(3, 'Nidhi', 78);")
         cur.execute("INSERT INTO STUDENT VALUES(4, 'Nikhil', 55);")
         print('data inserted successfully')
-
+        conn.commit()
 
         conn.close()
 
